@@ -13,7 +13,7 @@ The Onion Email service is not limited to any e-mail provider. You can use it wi
 - [Yahoo](https://yahoo.com)
 - [AOL](https://aol.com)
 
-> We are happy to add more providers to the list. If you would like to add your provider, please contact us at [contact@onion.email](mailto:contact@onion.email?key=https%3A%2F%2Fonion.email%2Fkeys%2FOnionEmail(4ABCA2C2)%E2%80%93Public.asc).
+> We are happy to add more providers to the list. If you would like to add your provider, please contact us at [contact@onion.email](mailto:contact@onion.email?key=https%3A%2F%2Fkeys.openpgp.org%2Fvks%2Fv1%2Fby-fingerprint%2FF670A2D3626AB878A46D7AA8879FF4E05B438A11).
 
 Alias is not required to operate the Onion Email service but without one, you will not be able to send emails from your Onion Email address.
 

@@ -38,7 +38,7 @@ To create an alias with Outlook.com, follow these steps:
 
 ## Create an alias with custom server
 
-> **Note:** You need to have a custom email server or provider to be able set the alias within the required email address. Some of providers are sending a verification email to the alias address. So you need to follow the steps to send email or send them to [us](mailto:contact@onion.email?key=https%3A%2F%2Fonion.email%2Fkeys%2FOnionEmail(4ABCA2C2)%E2%80%93Public.asc) to whitelist those verification emails.
+> **Note:** You need to have a custom email server or provider to be able set the alias within the required email address. Some of providers are sending a verification email to the alias address. So you need to follow the steps to send email or send them to [us](mailto:contact@onion.email?key=https%3A%2F%2Fkeys.openpgp.org%2Fvks%2Fv1%2Fby-fingerprint%2FF670A2D3626AB878A46D7AA8879FF4E05B438A11) to whitelist those verification emails.
 
 The [Roundcube webmail client](https://roundcube.net/) is a popular choice for custom email servers. To create an alias with Roundcube, follow these steps:
 

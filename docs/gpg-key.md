@@ -64,4 +64,4 @@ Y4oBFYTz3cpaDk43dOKIHWJpqgUEwbtXzs/vHbSG0h2a4wg52QxZrlwBFb9b
 
 ## Download ASC file
 
-You can download it as ASC file from [here](/keys/OnionEmail(4ABCA2C2)–Public.asc).
+You can download it as ASC file from [here](https://keys.openpgp.org/vks/v1/by-fingerprint/F670A2D3626AB878A46D7AA8879FF4E05B438A11).

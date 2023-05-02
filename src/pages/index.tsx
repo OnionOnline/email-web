@@ -37,15 +37,18 @@ export default function Home(): JSX.Element {
               <div>In order to successfully receive an email, the sender must fulfill the following criteria:</div>
               <div>
                 <ol>
-                    <li>
-                        <strong>Provide a valid Core ID:</strong> The sender's email name, the recipient email's 'plus' addressing field, or the 'X-CoreId' header must contain a valid Core ID. The email will be rejected if no valid Core ID is found.
-                    </li>
-                    <li>
-                        <strong>Core ID validation:</strong> The provided Core ID must pass the <a href="https://github.com/cryptohub-digital/ican.js" target="_blank" rel="noopener noreferrer">ICAN check</a>. The email will be rejected if the Core ID is invalid.
-                    </li>
-                    <li>
-                        <strong>Enforce encryption:</strong> The email body must be encrypted using PGP/GPG. The recipient's public key can be found in databases such as <a href="https://keys.openpgp.org" target="_blank" rel="noopener noreferrer">keys.openpgp.org</a>. The email will be rejected if encryption is not found.
-                    </li>
+                  <li>
+                    <strong>Provide a valid Core ID:</strong> The sender's email name, the recipient email's 'plus' addressing field, or the 'X-CoreId' header must contain a valid Core ID. The email will be rejected if no valid Core ID is found.
+                  </li>
+                  <li>
+                    <strong>Core ID validation:</strong> The provided Core ID must pass the <a href="https://github.com/cryptohub-digital/ican.js" target="_blank" rel="noopener noreferrer">ICAN check</a>. The email will be rejected if the Core ID is invalid.
+                  </li>
+                  <li>
+                    <strong>Enforce signature:</strong> The sender's email must be signed using PGP/GPG. The email will be rejected if no signature is found.
+                  </li>
+                  <li>
+                    <strong>Enforce encryption:</strong> The email body must be encrypted using PGP/GPG. The recipient's public key can be found in databases such as <a href="https://keys.openpgp.org" target="_blank" rel="noopener noreferrer">keys.openpgp.org</a>. The email will be rejected if encryption is not found.
+                  </li>
                 </ol>
               </div>
               <div>If all of these conditions are met, the email will be forwarded to the recipient. If any of these conditions are not met, the email will be rejected and an appropriate error message will be provided.</div>
@@ -54,7 +57,7 @@ export default function Home(): JSX.Element {
               <div>
                 <Link
                   className="button button--secondary button--lg"
-                  to="mailto:sales@onion.email?key=https%3A%2F%2Fonion.email%2Fkeys%2FOnionEmail(4ABCA2C2)%E2%80%93Public.asc">
+                  to="mailto:sales@onion.email?key=https%3A%2F%2Fkeys.openpgp.org%2Fvks%2Fv1%2Fby-fingerprint%2FF670A2D3626AB878A46D7AA8879FF4E05B438A11">
                   Contact sales via 🧅📧
                 </Link>
               </div>
