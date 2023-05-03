@@ -13,6 +13,7 @@ You will get:
 - Filtering of all spam and non-aimed emails
 - The ability to receive the other party's identity through Core ID
 - Encrypted content for all email messages using your GPG/PGP key
+- Premium service: Obtain a customized email address like `username@onion.email`, along with addressing options such as `username+cb00…@onion.email`.
 
 ## How the service is working?
 
