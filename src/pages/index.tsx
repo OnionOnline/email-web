@@ -34,20 +34,20 @@ export default function Home(): JSX.Element {
           <div className="container">
             <div>
               <h2>How to send your first onion email?</h2>
-              <div>In order to successfully receive an email, the sender must fulfill the following criteria:</div>
+              <div>To successfully send an email, the sender must fulfill the following criteria:</div>
               <div>
                 <ol>
                   <li>
-                    <strong>Provide a valid Core ID:</strong> The sender's email name, the recipient email's 'plus' addressing field, or the 'X-CoreId' header must contain a valid Core ID. The email will be rejected if no valid Core ID is found.
+                    <strong>Provide your valid Core ID:</strong> The sender's email name, email's 'plus' addressing field, or the 'X-CoreId' header must contain a valid Core ID. The email will be rejected if no valid Core ID is found. Check the <a href="/docs/guide/coreid">list of supported options</a> for more information.
                   </li>
                   <li>
                     <strong>Core ID validation:</strong> The provided Core ID must pass the <a href="https://github.com/cryptohub-digital/ican.js" target="_blank" rel="noopener noreferrer">ICAN check</a>. The email will be rejected if the Core ID is invalid.
                   </li>
                   <li>
-                    <strong>Enforce signature:</strong> The sender's email must be signed using PGP/GPG. The email will be rejected if no signature is found.
+                    <strong>Sign the email:</strong> The sender's email must be signed using PGP/GPG. The email will be rejected if no signature is found.
                   </li>
                   <li>
-                    <strong>Enforce encryption:</strong> The email body must be encrypted using PGP/GPG. The recipient's public key can be found in databases such as <a href="https://keys.openpgp.org" target="_blank" rel="noopener noreferrer">keys.openpgp.org</a>. The email will be rejected if encryption is not found.
+                    <strong>Encrypt the email:</strong> The email body must be encrypted using PGP/GPG. The recipient's public key can be found in databases such as <a href="https://keys.openpgp.org" target="_blank" rel="noopener noreferrer">keys.openpgp.org</a>. The email will be rejected if encryption is not found. Found out more about <a href="/docs/guide/key-servers">the key servers</a>.
                   </li>
                 </ol>
               </div>
