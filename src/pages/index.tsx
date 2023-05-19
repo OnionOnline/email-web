@@ -44,10 +44,10 @@ export default function Home(): JSX.Element {
                     <strong>Core ID validation:</strong> The provided Core ID must pass the <a href="https://github.com/cryptohub-digital/ican.js" target="_blank" rel="noopener noreferrer">ICAN check</a>. The email will be rejected if the Core ID is invalid.
                   </li>
                   <li>
-                    <strong>Sign the email:</strong> The sender's email must be signed using PGP/GPG. The email will be rejected if no signature is found.
+                    <strong>Encrypt the email:</strong> The email body must be encrypted using PGP/GPG. The recipient's public key can be found in databases such as <a href="https://keys.openpgp.org" target="_blank" rel="noopener noreferrer">keys.openpgp.org</a>. The email will be rejected if encryption is not found. Found out more about <a href="/docs/guide/key-servers">the key servers</a>.
                   </li>
                   <li>
-                    <strong>Encrypt the email:</strong> The email body must be encrypted using PGP/GPG. The recipient's public key can be found in databases such as <a href="https://keys.openpgp.org" target="_blank" rel="noopener noreferrer">keys.openpgp.org</a>. The email will be rejected if encryption is not found. Found out more about <a href="/docs/guide/key-servers">the key servers</a>.
+                    <strong>Optionally - Sign the email:</strong> The sender's email can be signed using PGP/GPG. The email will be processed if no signature is found.
                   </li>
                 </ol>
               </div>

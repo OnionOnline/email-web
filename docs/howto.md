@@ -10,8 +10,7 @@ To send the email successfully to `onion.emal` receiver's address you need to fo
    2. Append your Core ID into your email address, e.g. `yourname+cb00…@yourprovider.com`
    3. Define your Core ID as your name in your email client settings (first or second name).
    4. Add your Core ID to the email's headers items, e.g. `X-CoreId: cb00…`
-2. Digitally sign the email message with your GPG/PGP key so that we can verify that the email was sent by you.
-3. Encrypt your email's body with receiver GPG/PGP key. You can find the key on the dabase of public keys, e.g. [keys.openpgp.org](https://keys.openpgp.org/) or [pgp.mit.edu](https://pgp.mit.edu/). Otherwise ask the receiver about his public key.
+2. Encrypt your email's body with receiver GPG/PGP key. You can find the key on the dabase of public keys, e.g. [keys.openpgp.org](https://keys.openpgp.org/) or [pgp.mit.edu](https://pgp.mit.edu/). Otherwise ask the receiver about his public key.
 
 ## Outlook example
 
