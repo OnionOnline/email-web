@@ -10,7 +10,7 @@ The system is checking the email headers for presence of the Core ID. If the Cor
 
 The Core ID header look like this:
 
-```
+```txt
 X-CoreId: cb00…
 ```
 

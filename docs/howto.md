@@ -5,6 +5,7 @@ sidebar_position: 2
 # How to send email?
 
 To send the email successfully to `onion.emal` receiver's address you need to follow the steps below:
+
 1. Provide your Core ID with one of the following ways:
    1. Create your own email address with your Core ID, e.g. `cb00…@yourprovider.com`email`
    2. Append your Core ID into your email address, e.g. `yourname+cb00…@yourprovider.com`

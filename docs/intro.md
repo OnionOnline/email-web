@@ -9,6 +9,7 @@ Onion Email is the Ultimate layer of privacy protection for your online communic
 ## What you will get with the service?
 
 You will get:
+
 - A secure email address redirection to your current email address
 - Filtering of all spam and non-aimed emails
 - The ability to receive the other party's identity through Core ID
@@ -18,6 +19,7 @@ You will get:
 ## How the service is working?
 
 The service is working as follows:
+
 1. Register your email address for redirection with us, along with your Core ID, which you can generate using the CorePass app.
 2. Approve the creation of the address by clicking on the link in the email sent to your email address.
 3. Generate a GPG/PGP key pair and upload your public key to a public key server.
