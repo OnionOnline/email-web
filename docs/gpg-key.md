@@ -8,7 +8,7 @@ To contact us, please use our GPG key.
 
 ## GPG Public Key
 
-```
+```gpg
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGRPpCQBEAC44A8J0aN7XPFic2KKgb4cigTUVIITABUIeuK5uyONR776Efrs

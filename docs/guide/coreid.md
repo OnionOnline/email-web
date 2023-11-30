@@ -13,6 +13,7 @@ To generate a Core ID, you need to download the [CorePass app](https://corepass.
 ## How to provide Core ID?
 
 You can provide your Core ID with one of the following ways:
+
 1. Create your own email address with your Core ID, e.g. `cb00…@yourprovider.com`email`
 2. Append your Core ID into your email address, e.g. `yourname+cb00…@yourprovider.com`
 3. Define your Core ID as your name in your email client settings (first or second name).
