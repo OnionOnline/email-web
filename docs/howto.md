@@ -7,7 +7,7 @@ sidebar_position: 2
 To send the email successfully to `onion.emal` receiver's address you need to follow the steps below:
 
 1. Provide your Core ID with one of the following ways:
-   1. Create your own email address with your Core ID, e.g. `cb00…@yourprovider.com`email`
+   1. Create your own email address with your Core ID, e.g. `cb00…@yourprovider.com`
    2. Append your Core ID into your email address, e.g. `yourname+cb00…@yourprovider.com`
    3. Define your Core ID as your name in your email client settings (first or second name).
    4. Add your Core ID to the email's headers items, e.g. `X-CoreId: cb00…`
@@ -20,3 +20,9 @@ Manual how to send email from Outlook to `onion.email` receiver's address: [Send
 ## Thunderbird example
 
 Manual how to send email from Thunderbird to `onion.email` receiver's address: [Digitally Signing and Encrypting Messages](https://support.mozilla.org/en-US/kb/digitally-signing-and-encrypting-messages).
+
+## MailMate example
+
+Manual how to set CoreID in MailMate to [automate the workflow process](/docs/guide/mailmate-client).
+
+To learn more about OpenPGP and S/MIME support in MailMate, see the [Security](https://manual.mailmate-app.com/preferences#openpgp-and-smime) section of the manual.

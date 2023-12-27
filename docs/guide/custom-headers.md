@@ -46,6 +46,8 @@ The [Evolution](https://help.gnome.org/users/evolution/) email client allows you
 
 The [Thunderbird](https://www.thunderbird.net/) email client allows you to add [custom headers](https://www.lifewire.com/arbitrary-custom-heading-email-thunderbird-1173089).
 
+The [MailMate](https://freron.com/) email client allows you to [automate the workflow process](/docs/guide/mailmate-client).
+
 ### The mass mailing solutions
 
 You can modify the mass mailing software, such as [Mailtrain](https://github.com/Mailtrain-org/mailtrain) to add the Core ID to the email headers. Or develop your own plugins for the mass mailing software.
