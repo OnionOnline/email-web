@@ -38,7 +38,7 @@ export default function Home(): JSX.Element {
               <div>
                 <ol>
                   <li>
-                    <strong>Provide your valid Core ID:</strong> The sender's email name, email's 'plus' addressing field, or the 'X-CoreId' header must contain a valid Core ID. The email will be rejected if no valid Core ID is found. Check the <a href="/docs/guide/coreid">list of supported options</a> for more information.
+                    <strong>Provide your valid Core ID:</strong> The sender's email name, email's 'plus' addressing field, or the 'X-Coreid' header must contain a valid Core ID. The email will be rejected if no valid Core ID is found. Check the <a href="/docs/guide/coreid">list of supported options</a> for more information.
                   </li>
                   <li>
                     <strong>Core ID validation:</strong> The provided Core ID must pass the <a href="https://github.com/bchainhub/ican.js" target="_blank" rel="noopener noreferrer">ICAN check</a>. The email will be rejected if the Core ID is invalid.

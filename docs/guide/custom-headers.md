@@ -11,7 +11,7 @@ The system is checking the email headers for presence of the Core ID. If the Cor
 The Core ID header look like this:
 
 ```txt
-X-CoreId: cb00…
+X-Coreid: cb00…
 ```
 
 To add the Core ID to the email headers you need to follow few ways:
@@ -29,13 +29,13 @@ Example in Javascript:
 
 ```javascript
 const newHeaders = new Headers(oldheaders);
-newHeaders.set("X-CoreId", "cb00…");
+newHeaders.set("X-Coreid", "cb00…");
 ```
 
 In phpmailer:
 
 ```php
-$mail->addCustomHeader("X-CoreId", "cb00…");
+$mail->addCustomHeader("X-Coreid", "cb00…");
 ```
 
 ### Using specified email client

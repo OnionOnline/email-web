@@ -15,19 +15,19 @@ If you're looking to customize your emails sent from MailMate by adding a specif
 2. **Enter the Command**: Use the following command template to add the `CoreID` header to MailMate. Replace `<your_value>` with your desired default value or leave it blank for an empty value.
 
     ```bash
-    defaults write com.freron.MailMate MmAdditionalComposerHeaders "( { headerName = 'X-CoreId'; defaultValue = '<your_value>'; type = 'plain'; } )"
+    defaults write com.freron.MailMate MmAdditionalComposerHeaders "( { headerName = 'X-Coreid'; defaultValue = '<your_value>'; type = 'plain'; } )"
     ```
 
     For example, if you want to set a default value, your command might look like this:
 
     ```bash
-    defaults write com.freron.MailMate MmAdditionalComposerHeaders "( { headerName = 'X-CoreId'; defaultValue = 'cb00…'; type = 'plain'; } )"
+    defaults write com.freron.MailMate MmAdditionalComposerHeaders "( { headerName = 'X-Coreid'; defaultValue = 'cb00…'; type = 'plain'; } )"
     ```
 
     To set it with an empty value, just omit the value in the command:
 
     ```bash
-    defaults write com.freron.MailMate MmAdditionalComposerHeaders "( { headerName = 'X-CoreId'; defaultValue = ''; type = 'plain'; } )"
+    defaults write com.freron.MailMate MmAdditionalComposerHeaders "( { headerName = 'X-Coreid'; defaultValue = ''; type = 'plain'; } )"
     ```
 
 3. **Restart MailMate**: After executing the command, restart MailMate for the changes to take effect.
