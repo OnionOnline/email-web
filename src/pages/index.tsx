@@ -53,13 +53,15 @@ export default function Home(): JSX.Element {
               </div>
               <div>If all of these conditions are met, the email will be forwarded to the recipient. If any of these conditions are not met, the email will be rejected and an appropriate error message will be provided.</div>
               <hr />
-              <div>Reach us with your first email:</div>
-              <div>
-                <Link
-                  className="button button--secondary button--lg"
-                  to="mailto:sales@onion.email?key=https%3A%2F%2Fkeys.openpgp.org%2Fvks%2Fv1%2Fby-fingerprint%2FF670A2D3626AB878A46D7AA8879FF4E05B438A11">
-                  Contact sales via 🧅📧
-                </Link>
+              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
+                <div>Reach us with your first email:</div>
+                <div>
+                  <Link
+                    className="button button--primary button--lg"
+                    to="mailto:sales@onion.email?key=https%3A%2F%2Fkeys.openpgp.org%2Fvks%2Fv1%2Fby-fingerprint%2FF670A2D3626AB878A46D7AA8879FF4E05B438A11">
+                    📧 Contact 🧅 sales
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
