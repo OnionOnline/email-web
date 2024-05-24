@@ -2,6 +2,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+import remarkCorepass from "remark-corepass";
+import remarkCorebc from "remark-corebc";
+import remarkCurrencyFormatter from 'remark-currency-formatter';
+import remarkFediverseUser from "remark-fediverse-user";
+
 const config: Config = {
   title: 'Onion Email',
   tagline: 'The Ultimate layer of privacy protection for your online communications.',
@@ -30,6 +35,12 @@ const config: Config = {
           sidebarPath: require.resolve('./sidebars'),
           editUrl:
             'https://github.com/OnionOnline/email-web/',
+          remarkPlugins: [
+            remarkCorepass,
+            remarkCorebc,
+            remarkCurrencyFormatter,
+            remarkFediverseUser,
+          ],
         },
         blog: {
           showReadingTime: true,
@@ -46,6 +57,12 @@ const config: Config = {
               });
             },
           },
+          remarkPlugins: [
+            remarkCorepass,
+            remarkCorebc,
+            remarkCurrencyFormatter,
+            remarkFediverseUser,
+          ],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
