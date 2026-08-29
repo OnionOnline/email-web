@@ -16,6 +16,8 @@ To send email to an `onion.email` address:
 
 When a Core ID is supplied, Onion Email validates it. A missing Core ID does not prevent an encrypted message from being delivered.
 
+The recipient may also use a plus-address variation such as `username+something@onion.email`. It routes through `username@onion.email`; no separate registration is needed. See [Plus addressing](/docs/guide/create-an-alias#plus-addressing).
+
 :::tip OpenPGP and GPG
 OpenPGP is the encryption standard. GPG (GnuPG) is a compatible implementation of that standard, so messages encrypted with GPG are supported.
 :::

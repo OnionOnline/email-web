@@ -15,6 +15,7 @@ You will get:
 - OpenPGP-compatible protection, including GPG/GnuPG, using the recipient's public key
 - Optional Core ID context when a sender supplies one
 - Trusted-sender exceptions for essential verification and service messages
+- Plus-address variations such as `username+shopping@onion.email`, all routed to the base alias
 
 ## How it works
 

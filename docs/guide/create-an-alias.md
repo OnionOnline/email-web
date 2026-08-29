@@ -4,6 +4,24 @@ sidebar_position: 1
 
 # Create an Alias
 
+## Plus addressing
+
+Every Onion Email alias supports subaddressing when the domain setting is enabled. Add `+something` before `@onion.email`:
+
+```text
+username+shopping@onion.email
+username+newsletters@onion.email
+username+project-name@onion.email
+```
+
+All of these addresses use the same private destination configured for `username@onion.email`. The detail after `+` is preserved with the message, so it can help you identify where an address was used or create filters in your destination mailbox.
+
+You do not need to register each variation separately. If a dedicated routing rule for an exact plus address exists, that rule takes precedence over the base address.
+
+:::note
+Plus addressing changes the recipient alias only. The normal encryption policy still applies: messages must use OpenPGP/GPG unless the sender is explicitly allowlisted.
+:::
+
 Some of the email providers has a limitation on the number of aliases you can create as well as external address names. For example iCloud email didn't allow you to setup external address name. So you can't create an alias with iCloud email.
 
 ## Create an alias with Gmail
