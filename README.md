@@ -1,5 +1,9 @@
 # Website
 
+## Requirements
+
+- Node.js 24.20.0 LTS (the version is pinned in `.node-version`)
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation

@@ -9,7 +9,7 @@ import remarkFediverseUser from "remark-fediverse-user";
 
 const config: Config = {
   title: 'Onion Email',
-  tagline: 'The Ultimate layer of privacy protection for your online communications.',
+  tagline: 'Encrypted email routing that refuses plaintext.',
   favicon: 'img/favicon.png',
 
   url: 'https://onion.email',
@@ -19,7 +19,11 @@ const config: Config = {
   projectName: 'email-web',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -88,10 +92,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Information',
+          label: 'Learn',
         },
         {
-          label: 'Sending e-mail',
+          label: 'Send encrypted email',
           to: '/docs/howto',
         },
       ],
@@ -104,7 +108,7 @@ const config: Config = {
       },
       links: [
         {
-          title: 'Informaton',
+          title: 'Information',
           items: [
             {
               label: 'Information',

@@ -4,24 +4,29 @@ sidebar_position: 1
 
 # What is Onion Email?
 
-Onion Email is the Ultimate layer of privacy protection for your online communications.
+Onion Email is an encrypted email gateway that protects the private mailbox behind your public `@onion.email` address.
 
-## What you will get with the service?
+## What you get
 
 You will get:
 
-- A secure email address redirection to your current email address
-- Filtering of all spam and non-aimed emails
-- The ability to receive the other party's identity through Core ID
-- Encrypted content for all email messages using your GPG/PGP key
-- Premium service: Obtain a customized email address like `username@onion.email`, along with addressing options such as `username+cb00…@onion.email`.
+- A public alias that keeps your destination mailbox private
+- A gateway that declines unencrypted mail before forwarding
+- OpenPGP-compatible protection, including GPG/GnuPG, using the recipient's public key
+- Optional Core ID context when a sender supplies one
+- Trusted-sender exceptions for essential verification and service messages
+- Plus-address variations such as `username+shopping@onion.email`, all routed to the base alias
 
-## How the service is working?
+## How it works
 
 The service is working as follows:
 
-1. Register your email address for redirection with us, along with your Core ID, which you can generate using the CorePass app.
+1. Register your private destination address. A Core ID may be added, but is not required.
 2. Approve the creation of the address by clicking on the link in the email sent to your email address.
-3. Generate a GPG/PGP key pair and upload your public key to a public key server.
+3. Generate an OpenPGP key pair with GPG/GnuPG or another compatible application, then upload your public key to a public key server.
 4. Establish a redirection rule within your email service to enable sending emails from your Onion Email address alias (optional).
-5. You can now send and receive emails with your Onion Email address.
+5. Share the Onion Email alias. Accepted messages are forwarded to the verified destination; plaintext messages are declined.
+
+:::note Trusted senders
+Approved transactional senders may be allowlisted so account verification and security notices can arrive even when the sender does not support OpenPGP/GPG.
+:::
