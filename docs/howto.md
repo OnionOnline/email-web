@@ -2,16 +2,23 @@
 sidebar_position: 2
 ---
 
-# How to send email?
+# How to send encrypted email
 
-To send the email successfully to `onion.emal` receiver's address you need to follow the steps below:
+To send email to an `onion.email` address:
 
-1. Provide your Core ID with one of the following ways:
+1. Find the recipient's OpenPGP/GPG public key on a public key server or request it directly.
+2. Encrypt the message with that public key before sending. Unencrypted messages are declined.
+3. Optionally provide your Core ID in one of these ways:
    1. Create your own email address with your Core ID, e.g. `cb00…@yourprovider.com`
    2. Append your Core ID into your email address, e.g. `yourname+cb00…@yourprovider.com`
    3. Define your Core ID as your name in your email client settings (first or second name).
    4. Add your Core ID to the email's headers items, e.g. `X-Coreid: cb00…`
-2. Encrypt your email's body with receiver GPG/PGP key. You can find the key on the dabase of public keys, e.g. [keys.openpgp.org](https://keys.openpgp.org/) or [pgp.mit.edu](https://pgp.mit.edu/). Otherwise ask the receiver about his public key.
+
+When a Core ID is supplied, Onion Email validates it. A missing Core ID does not prevent an encrypted message from being delivered.
+
+:::tip OpenPGP and GPG
+OpenPGP is the encryption standard. GPG (GnuPG) is a compatible implementation of that standard, so messages encrypted with GPG are supported.
+:::
 
 ## Outlook example
 
